@@ -26,11 +26,11 @@ class Lario(State):
         }
 
         # Force values
-        self.RUNNING_FORCE = 60000.0
+        self.RUNNING_FORCE = 50000.0
         self.JUMP_FORCE = 640000.0
         self.SMASH_FORCE = 400000.0
         self.ACTION_FORCE_DURATION = 0.05
-        self.MAX_RUN_SPEED = 200.0  # pixels per second
+        self.MAX_RUN_SPEED = 150.0  # pixels per second
         
         self.AIR_CONTROL = 0.6      # fraction of run force available in midair
         self.move_input = 0         # -1, 0, 1: read by physics
