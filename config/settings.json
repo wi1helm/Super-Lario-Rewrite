@@ -1,0 +1,39 @@
+{
+    "video": {
+        "framerate": 60,
+        "virtual_resolution": [
+            800,
+            640
+        ],
+        "native_resolution": [
+            1920,
+            1080
+        ],
+        "display_mode": "FIXED",
+        "fixed_resolution": [
+            960,
+            540
+        ],
+        "maintain_aspect_ratio": false
+    },
+    "animation": {
+        "player_animations": true,
+        "world_animations": true
+    },
+    "debug": {
+        "show_hitboxes": false,
+        "show_fps": true,
+        "god_mode": false,
+        "debug_loading": false,
+        "debug_player": true,
+        "debug_fps": true,
+        "debug_missing_files": false
+    },
+    "audio": {
+        "master_volume": 0.5,
+        "music_volume": 0.5,
+        "player_volume": 0.5,
+        "level_volume": 0.5,
+        "enemy_volume": 0.5
+    }
+}
